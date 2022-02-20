@@ -21,7 +21,7 @@ $(document).ready(()=>{
                 columns:[{title:"#"},
                          {title:"Receiver Address"},
                          {title:"Sender Address"},
-                         {title:"Chiz Amount"}],
+                         {title:"MoggyCoin Amount"}],
                 columnDefs:[{targets:[1,2,3],
                             render:$.fn.dataTable.render.ellipsis(25)}]
             });
