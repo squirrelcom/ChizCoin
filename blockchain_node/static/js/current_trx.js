@@ -37,7 +37,7 @@ $(document).ready(()=>{
                 columns:[{title:"#"},
                         {title:"Receiver Address"},
                         {title:"Sender Address"},
-                        {title:"Chiz Amount"},
+                        {title:"MoggyCoin Amount"},
                         {title:"timestamp"},
                         {title:"Block Id"}],
                     columnDefs: [ {targets: [1,2,3,4,5], render: $.fn.dataTable.render.ellipsis( 25 )}]
